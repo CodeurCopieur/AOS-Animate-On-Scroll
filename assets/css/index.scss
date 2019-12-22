@@ -47,6 +47,16 @@ body {
     margin: 0 auto;
     overflow: hidden;
     padding: 0 2rem;
+
+    .item--secondary {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 20px;
+      background: red;
+      max-height: 250px;
+  }
     
     .card {
       display: grid;
