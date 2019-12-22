@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>AOS - Animate On Scroll</title>
+    <link rel="stylesheet" href="assets/css/index.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  </head>
+  <body>
+    <header class="main-header">
+      <h1><span>Lorem, ipsum.</span>lorem</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </header>
+    <main class="container">
+      <section class="card" data-aos="fade-left" data-aos-easing="ease-in-out"><img src="https://i.ibb.co/VvC0vpN/paint-1.png" alt=""/>
+        <div>
+          <h3>Lorem, ipsum dolor 1.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ea reprehenderit suscipit laudantium dignissimos dolores nobis sequi obcaecati atque! Temporibus id saepe recusandae corrupti molestias quam amet natus libero voluptate!</p><a class="btn" href="#">Lorem, ipsum</a>
+        </div>
+      </section>
+      <section class="card" data-aos="fade-right"><img src="https://i.ibb.co/3NHjDcW/paint-2.png" alt=""/>
+        <div>
+          <h3>Lorem, ipsum dolor 2.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ea reprehenderit suscipit laudantium dignissimos dolores nobis sequi obcaecati atque! Temporibus id saepe recusandae corrupti molestias quam amet natus libero voluptate!</p><a class="btn" href="#">Lorem, ipsum</a>
+        </div>
+      </section>
+      <section class="card" data-aos="fade-left"><img src="https://i.ibb.co/0VywMkW/paint-3.png" alt=""/>
+        <div>
+          <h3>Lorem, ipsum dolor 3.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ea reprehenderit suscipit laudantium dignissimos dolores nobis sequi obcaecati atque! Temporibus id saepe recusandae corrupti molestias quam amet natus libero voluptate!</p><a class="btn" href="#">Lorem, ipsum</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000,
+        easing: 'ease'
+      });
+    </script> 
+  </body>
+</html>
